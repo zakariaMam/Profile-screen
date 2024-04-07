@@ -72,7 +72,7 @@ class Profilescreen extends StatelessWidget {
         Padding(
           padding: const EdgeInsets.all(5),
           child: Text(
-            'My Notification',
+            'My Profile',
             style: TextStyle(
                 fontSize: 20,
                 fontWeight: FontWeight.bold,
@@ -98,7 +98,7 @@ class Profilescreen extends StatelessWidget {
             ),
           ),
         ),
-        Column(children: [
+        Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
           Align(
             alignment: Alignment.topLeft,
             child: Text(
